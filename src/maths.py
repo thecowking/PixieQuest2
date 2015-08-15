@@ -22,11 +22,18 @@ def simple_addition():
 
 
 def medium_addition():
-    pass
+    a = random.randrange(1, 11)
+    b = random.randrange(1, 11)
+    c = a + b
+    return a, b, c
 
 
 def hard_addition():
-    pass
+    a = random.randrange(1,21)
+    b = random.randrange(1,21)
+    c = a +b
+    return a, b, c
+
 
 
 def simple_subtraction():
