@@ -1,3 +1,6 @@
+#
+
+
 import random
 
 
@@ -37,14 +40,22 @@ def hard_addition():
 
 
 def simple_subtraction():
-    pass
+    a = random.randrange(5, 11)
+    b = random.randrange(1, 6)
+    c = a - b
+    return a, b, c
 
 
 def medium_subtraction():
-    pass
+    a = random.randrange(11, 21)
+    b = random.randrange(1, 11)
+    c = a - b
+    return a, b, c
+
 
 
 def hard_subtraction():
+
     pass
 
 
