@@ -55,8 +55,14 @@ def medium_subtraction():
 
 
 def hard_subtraction():
-
-    pass
+    a = random.randrange(1,21)
+    b = random.randrange(1,21)
+    if b>a:
+        anew = b
+        b = a
+        a = anew
+    
+    return a, b, c
 
 
 def simple_multiplication():
